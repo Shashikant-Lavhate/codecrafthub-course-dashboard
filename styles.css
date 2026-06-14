@@ -244,6 +244,17 @@ body {
     background: #CBD5E1;
 }
 
+.btn-success {
+    background: var(--success);
+    color: #fff;
+    border: none;
+}
+
+.btn-success:hover:not(:disabled) {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
 .btn-ghost {
     background: transparent;
     color: var(--primary);
